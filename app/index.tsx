@@ -2,7 +2,6 @@ import React, { Fragment } from 'react';
 import { render } from 'react-dom';
 import { AppContainer as ReactHotAppContainer } from 'react-hot-loader';
 import { history, configuredStore } from './store';
-import './app.global.css';
 
 const store = configuredStore();
 
@@ -15,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <AppContainer>
       <Root store={store} history={history} />
     </AppContainer>,
+
     document.getElementById('root')
   );
 });
