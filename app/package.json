@@ -1,0 +1,18 @@
+{
+  "name": "epcis-workbench",
+  "productName": "epcis-workbench",
+  "version": "1.0.0",
+  "description": "An Application to Read and Display EPCIS Files, parse EPC urns, transcode GS1 to EPC and EPC to GS1, and calculate Check Digits",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "EPCIS Workbench Maintainers",
+    "email": "chuck@chucksailer.com",
+    "url": "https://github.com/electron-react-boilerplate"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../internals/scripts/BabelRegister.js ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
